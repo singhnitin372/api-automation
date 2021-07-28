@@ -1,0 +1,48 @@
+2021-07-28 13:39:16,881 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:16,882 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:16,882 INFO Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/update_post.json
+2021-07-28 13:39:16,882 INFO File Text is: {
+  "id": $id,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:16,882 INFO Final Text is: {
+  "id": 1,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:16,883 INFO API url is: https://jsonplaceholder.typicode.com/posts/1
+2021-07-28 13:39:16,883 INFO API service name is: update_post
+2021-07-28 13:39:16,883 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:17,480 INFO Service name is : update_posts
+2021-07-28 13:39:17,480 INFO Service status code is : 200
+2021-07-28 13:39:17,480 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:17 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '13', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '992', 'X-Ratelimit-Reset': '1627459762', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"d-p13Thq1mbIznE8TsFv4BmW8SRpg"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=5nUKjYcKElJcx6B7ysEfOocMLerofq8cXWMQCJWtJ4%2FkLpkio4NVqGVPEkKEsEpLhlDWIe4Qu3gM3n%2FD9T6sfrhe1%2Fv5vpAVJ8LpH87yYo7v6h2maYo5dKOzhaqb0lF7uxqPh4msgMSr%2BOgfAfDs"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fd8faf14af2-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:17,480 INFO API response json for service is : {'id': 1}
+2021-07-28 13:39:17,481 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:17,481 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:17,482 INFO API url is: https://jsonplaceholder.typicode.com/posts/1
+2021-07-28 13:39:17,482 INFO API service name is: get_post_by_id
+2021-07-28 13:39:17,482 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:17,562 INFO Service name is : get_one_posts
+2021-07-28 13:39:17,563 INFO Service status code is : 200
+2021-07-28 13:39:17,564 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:17 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '997', 'X-Ratelimit-Reset': '1626759948', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '25921', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hZcDbbCvIFoqsRpH1RmeMVf46F0DHjKaMuDIQo00Y23ld8yMOktzXuLLZpUXxGT6Gw10Q1eUB2BOuPRFtr1l1n11cR2vVUG8jYHv7O9rSvuu9HynBJSu97634%2Fi3eAOMtklvLQkUx3kVGECpB43j"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fdca9a84ad5-HYD', 'Content-Encoding': 'gzip', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:17,564 INFO API response json for service is : {'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+2021-07-28 13:39:17,566 INFO Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/update_post.json
+2021-07-28 13:39:17,566 INFO File Text is: {
+  "id": $id,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:17,567 INFO Final Text is: {
+  "id": 1,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:17,572 ERROR test_put_update_posts_verify_record is Failed
+2021-07-28 13:39:17,572 ERROR Error message is: assert 'sunt aut fac...reprehenderit' == 'abc'
+  - abc
+  + sunt aut facere repellat provident occaecati excepturi optio reprehenderit

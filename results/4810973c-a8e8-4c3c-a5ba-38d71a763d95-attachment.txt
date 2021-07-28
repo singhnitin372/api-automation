@@ -1,0 +1,23 @@
+[32mINFO    [0m api_automation:base_utility.py:15 File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+[32mINFO    [0m api_automation:base_utility.py:20 Base url is: https://jsonplaceholder.typicode.com
+[32mINFO    [0m api_automation:read_json.py:14 Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/update_post.json
+[32mINFO    [0m api_automation:read_json.py:17 File Text is: {
+  "id": $id,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+[32mINFO    [0m api_automation:read_json.py:21 Final Text is: {
+  "id": 1,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+[32mINFO    [0m api_automation:log_request_data.py:9 API url is: https://jsonplaceholder.typicode.com/posts/1
+[32mINFO    [0m api_automation:log_request_data.py:10 API service name is: update_post
+[32mINFO    [0m api_automation:log_request_data.py:11 API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+[32mINFO    [0m api_automation:log_response_data.py:11 Service name is : update_posts
+[32mINFO    [0m api_automation:log_response_data.py:12 Service status code is : 200
+[32mINFO    [0m api_automation:log_response_data.py:13 Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:16 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '13', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '994', 'X-Ratelimit-Reset': '1627459762', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"d-p13Thq1mbIznE8TsFv4BmW8SRpg"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=XwqfsIrR%2FxQA9PpXua9%2FTLUHNrEKHGsdEc47sWC1s6cwvamqLJygRkODnBcdaL9zOnDq7fcmVDqCyyDPG1yPuuT4PlMAOVKDxBzh%2BmWzRRqS0dkHm7QHGeEe8GXqwWb9WZKd3Y58%2BdKjI%2FoCLzkQ"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fd0a9ec4b11-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+[32mINFO    [0m api_automation:log_response_data.py:17 API response json for service is : {'id': 1}
+[1m[31mERROR   [0m api_automation:test_put_update_posts_service.py:22 test_put_update_posts_status_code is Passed

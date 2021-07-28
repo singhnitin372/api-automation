@@ -1,0 +1,10 @@
+2021-07-28 13:39:15,064 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:15,064 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:15,064 INFO API url is: https://jsonplaceholder.typicode.com/invalidposts
+2021-07-28 13:39:15,065 INFO API service name is: get_invalid_posts
+2021-07-28 13:39:15,065 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:15,176 INFO Service name is : get_invalid_posts
+2021-07-28 13:39:15,177 INFO Service status code is : 404
+2021-07-28 13:39:15,178 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:15 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '994', 'X-Ratelimit-Reset': '1627459522', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'max-age=43200', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '267', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=XSrDblb3CsopBxC7gNrxNXeQsVZ6IZn7FEEhqAj1f2ul92HRKCRhz4uJLH3XBZLh5F40ogNxAYI9%2BgXiaIdYdf1Qt2pvpSdoXNQj7LUKKCJXkKWcAvh6EQK8EDZ64yO%2B%2BACQPUtiu1nRk%2FNyLg81"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fcdbe0a4ae1-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:15,178 INFO API response json for service is : {}
+2021-07-28 13:39:15,179 INFO test_get_invalid_posts_status_codes is Passed

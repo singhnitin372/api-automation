@@ -1,0 +1,21 @@
+[32mINFO    [0m api_automation:base_utility.py:15 File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+[32mINFO    [0m api_automation:base_utility.py:20 Base url is: https://jsonplaceholder.typicode.com
+[32mINFO    [0m api_automation:read_json.py:14 Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/create_new_post.json
+[32mINFO    [0m api_automation:read_json.py:17 File Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+[32mINFO    [0m api_automation:read_json.py:21 Final Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+[32mINFO    [0m api_automation:log_request_data.py:9 API url is: https://jsonplaceholder.typicode.com/posts
+[32mINFO    [0m api_automation:log_request_data.py:10 API service name is: create_new_post
+[32mINFO    [0m api_automation:log_request_data.py:11 API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+[32mINFO    [0m api_automation:log_response_data.py:11 Service name is : create_posts_service
+[32mINFO    [0m api_automation:log_response_data.py:12 Service status code is : 201
+[32mINFO    [0m api_automation:log_response_data.py:13 Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:11 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '15', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '999', 'X-Ratelimit-Reset': '1627459762', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'http://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7vlt6MLhuuq6BJqna%2F4ExZiuSK45DwPt4ts5EVD%2F%2Fn70E2sIf1hz4PxcXKX8ATWxGZ4TEv62mwiFYtFRt4ZWqIaawyZOGLWllqGhoR3fqjypxmNuMaKXJO9nL1993%2BrPXQGaDBO5QH2Ug3J%2BzENZ"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fb69b394aed-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+[32mINFO    [0m api_automation:log_response_data.py:17 API response json for service is : {'id': 101}
+[32mINFO    [0m api_automation:test_create_new_posts_service.py:20 test_create_posts_status_code is Passed

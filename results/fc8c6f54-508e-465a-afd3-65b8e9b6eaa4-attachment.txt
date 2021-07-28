@@ -1,0 +1,23 @@
+2021-07-28 13:39:16,267 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:16,269 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:16,270 INFO Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/update_post.json
+2021-07-28 13:39:16,271 INFO File Text is: {
+  "id": $id,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:16,271 INFO Final Text is: {
+  "id": 1,
+  "title": "abc",
+  "body": "xyz",
+  "userId": 1
+}
+2021-07-28 13:39:16,272 INFO API url is: https://jsonplaceholder.typicode.com/posts/1
+2021-07-28 13:39:16,272 INFO API service name is: update_post
+2021-07-28 13:39:16,273 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:16,876 INFO Service name is : update_posts
+2021-07-28 13:39:16,877 INFO Service status code is : 200
+2021-07-28 13:39:16,877 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:16 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '13', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '993', 'X-Ratelimit-Reset': '1627459762', 'Vary': 'Origin, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"d-p13Thq1mbIznE8TsFv4BmW8SRpg"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=oT9oCmkrCp0%2BIGz88NE%2FyTTfEW%2B%2FbZr6jpKig4A6Ot8yMj%2BnbM03QKGeSIL3oSCOp8PIGPXHXFIzvI5sMzzeAubtU%2FEcIGUPWtJQsq5KMitQRPHPeYbIIxEoCHmIR8scT3bQDp%2BA63pxxtOuzK0C"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fd52dce4b11-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:16,877 INFO API response json for service is : {'id': 1}
+2021-07-28 13:39:16,878 INFO test_put_update_posts_schema_valid is Passed

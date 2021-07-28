@@ -1,0 +1,33 @@
+2021-07-28 13:39:12,673 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:12,673 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:12,673 INFO Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/create_new_post.json
+2021-07-28 13:39:12,673 INFO File Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+2021-07-28 13:39:12,674 INFO Final Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+2021-07-28 13:39:12,674 INFO API url is: https://jsonplaceholder.typicode.com/posts
+2021-07-28 13:39:12,674 INFO API service name is: create_new_post
+2021-07-28 13:39:12,674 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:13,281 INFO Service name is : create_posts_service
+2021-07-28 13:39:13,281 INFO Service status code is : 201
+2021-07-28 13:39:13,281 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:13 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '15', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'X-Ratelimit-Limit': '1000', 'X-Ratelimit-Remaining': '997', 'X-Ratelimit-Reset': '1627459762', 'Vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'Access-Control-Allow-Credentials': 'true', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Expires': '-1', 'Access-Control-Expose-Headers': 'Location', 'Location': 'http://jsonplaceholder.typicode.com/posts/101', 'X-Content-Type-Options': 'nosniff', 'Etag': 'W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=e0zIgIuC%2BXyMaKNtBp0ZVzKPIu0P3UJDsJ5DFN6aztz%2BKLCCaKp%2B843f1Biai984LMQrveDUhEx%2BGThBMgsBOIqN4JZUfquBIJq67y8FLN3ZgCb3QGROsbSA9qZsSWEU%2B4XK21Km0dPOEY79i%2F92"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fbe9ed54b1c-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:13,281 INFO API response json for service is : {'id': 101}
+2021-07-28 13:39:13,282 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:13,282 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:13,283 INFO API url is: https://jsonplaceholder.typicode.com/posts/101
+2021-07-28 13:39:13,283 INFO API service name is: get_post_by_id
+2021-07-28 13:39:13,283 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:13,352 INFO Service name is : get_one_posts_service
+2021-07-28 13:39:13,352 INFO Service status code is : 404
+2021-07-28 13:39:13,352 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:13 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2', 'Connection': 'keep-alive', 'x-powered-by': 'Express', 'x-ratelimit-limit': '1000', 'x-ratelimit-remaining': '998', 'x-ratelimit-reset': '1627451362', 'vary': 'Origin, Accept-Encoding', 'access-control-allow-credentials': 'true', 'cache-control': 'max-age=43200', 'pragma': 'no-cache', 'expires': '-1', 'x-content-type-options': 'nosniff', 'etag': 'W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"', 'via': '1.1 vegur', 'CF-Cache-Status': 'HIT', 'Age': '8433', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TW1Migc%2FnPa6XVa96%2Fj4Nu0amMPMKBHXXe1v4CJqJJvZQClGwjJ%2B%2BgavlqYW%2F13ypBdgh0ZAY29rcdfBkR9VNpWxgAB7MCntV%2BWo2JuYD2c%2F4AWkmj3zW5GFowdL%2BouTx5L7oquJPyTzQO0W6VfA"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fc26b1c4aed-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:13,352 INFO API response json for service is : {}
+2021-07-28 13:39:13,352 ERROR test_create_new_post_verify_post_created is Failed
+2021-07-28 13:39:13,353 ERROR test_create_new_post_verify_post_created is Failed
+2021-07-28 13:39:13,353 ERROR Error is: Record not updated for the post service
+assert False

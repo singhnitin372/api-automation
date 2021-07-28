@@ -1,0 +1,21 @@
+2021-07-28 13:39:12,059 INFO File name for config ini is: /home/nitin-singh/PycharmProjects/pythonProject/resource/config.ini
+2021-07-28 13:39:12,059 INFO Base url is: https://jsonplaceholder.typicode.com
+2021-07-28 13:39:12,059 INFO Filename is: /home/nitin-singh/PycharmProjects/pythonProject/body/create_new_post.json
+2021-07-28 13:39:12,060 INFO File Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+2021-07-28 13:39:12,060 INFO Final Text is: {
+"title": "foo",
+"body": "bar",
+"userId": 1
+}
+2021-07-28 13:39:12,060 INFO API url is: https://jsonplaceholder.typicode.com/posts
+2021-07-28 13:39:12,060 INFO API service name is: create_new_post
+2021-07-28 13:39:12,061 INFO API header is: {'Content-Type': 'application/json', 'charset': 'UTF-8'}
+2021-07-28 13:39:12,664 INFO Service name is : create_posts_service
+2021-07-28 13:39:12,665 INFO Service status code is : 201
+2021-07-28 13:39:12,666 INFO Service response headers is : {'Date': 'Wed, 28 Jul 2021 08:09:12 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '15', 'Connection': 'keep-alive', 'x-powered-by': 'Express', 'x-ratelimit-limit': '1000', 'x-ratelimit-remaining': '998', 'x-ratelimit-reset': '1627459762', 'vary': 'Origin, X-HTTP-Method-Override, Accept-Encoding', 'access-control-allow-credentials': 'true', 'cache-control': 'no-cache', 'pragma': 'no-cache', 'expires': '-1', 'access-control-expose-headers': 'Location', 'location': 'http://jsonplaceholder.typicode.com/posts/101', 'x-content-type-options': 'nosniff', 'etag': 'W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"', 'via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=pLhbTL7pClLleTxbDd3gNWKVQZ0afNdOX%2B%2FumaBe6OXgXPgWcUKkO5eeV0%2BeOe6kslFR5C0Kw41iKo4QKb%2F2R5yLDDUpGXO4zcKg9ybYQDEWdySnJOQJ1da1frJ10E5JyPhVJuFoHPYNIANljRp1"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '675c9fbaec224af3-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+2021-07-28 13:39:12,667 INFO API response json for service is : {'id': 101}
+2021-07-28 13:39:12,668 INFO test_create_posts_schema_verify is Passed
