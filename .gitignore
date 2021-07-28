@@ -1,3 +1,4 @@
 .pytest_cache
-.venv
-.api_automation.log
+venv
+*.log
+.idea
