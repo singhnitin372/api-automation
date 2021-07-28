@@ -4,7 +4,7 @@
 2. Install allure report using (npm install -g allure)
 3. Create and activate the virtualenv   
 4. Go to the root project root directory and run (pip3 install -r requirements.txt)
-git remote add origin https://github.com/singhnitin372/api-automation.git6. Run the command (pytest --alluredir=results)
+6. Run the command (pytest --alluredir=results)
 7. Run the next command (allure serve results/)
 8. Browser will open automatically, and you will be seeing a html report
 9. You can see the logs in the 'api_automation.log' under the root directory of application
