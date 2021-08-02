@@ -1,4 +1,4 @@
 .pytest_cache
-venv
-*.log
+venv/
+*.log/
 .idea
