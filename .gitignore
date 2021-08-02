@@ -1,4 +1,17 @@
 .pytest_cache
 venv/
+.venv/
 *.log/
+*.log
 .idea
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+.api_automation.log
+pip-selfcheck.json
